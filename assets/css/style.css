@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-head-color{
+    background-color: cadetblue;
+} 
+.font-color{
+    color: wheat;
+}
+.nav-brand{
+    font-family: 'Odibee Sans', cursive;
+}
+.nav-brand a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 50px ;
+}
+.m-right{
+    margin-right: 1.2rem;
+}
+.m-right-status{
+    margin-right: 1.8rem;
+}
+.padding-right{
+    padding-right: 1.1rem;
+}

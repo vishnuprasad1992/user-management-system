@@ -1,0 +1,26 @@
+<!-- user data -->
+<% for(var i=0; i<users.length ; i++){ %>
+    <tr>
+        <td>
+            <%= i+1 %>
+        </td>
+        <td>
+            <%= users[i].name %>
+        </td>
+        <td>
+            <%= users[i].email %>
+        </td>
+        <td>
+            <%= users[i].gender %>
+        </td>
+        <td>
+            <%= users[i].status %>
+        </td>
+        <td colspan="2" class="text-center">
+            <a href="/update-user?id=<%= users[i]._id %>" class="btn btn-success px-3 mx-2"> <i
+                    class="fas fa-pencil-alt"></i></i></a>
+            <a href="/api/users?id=<%= users[i]._id %>" class="btn btn-warning px-3 mx-2"><i class="far fa-trash-alt"></i></a>
+        </td>
+    </tr>
+    <% } %>
+        <!-- userdata -->
